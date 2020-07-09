@@ -1,5 +1,5 @@
-extern crate pkg_config;
+extern crate vcpkg;
 
 fn main() {
-  pkg_config::find_library("libusb-1.0").unwrap();
+  vcpkg::find_package("libusb").unwrap();
 }

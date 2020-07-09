@@ -17,4 +17,4 @@ links = "usb-1.0"
 libc = "0.2"
 
 [build-dependencies]
-pkg-config = "0.3.2"
+vcpkg = "0.2.10"
